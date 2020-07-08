@@ -20,5 +20,5 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: 4cadba9a-ada9-4999-b0a9-56a0010af3e7
+    secure: "$HEROKU_API_KEY"
   app: devops-labs-souza
